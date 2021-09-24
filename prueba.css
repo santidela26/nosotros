@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Bebas Neue', cursive;
+    background-color: gray;
+}
+div.inicio{ /*Inicio*/
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+}
+div.intro{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+div.parrafo{
+    margin: 40px;
+    font-size: 50px;
+}
+div.titulop{
+    font-size: 30px;
+}
+div.video{
+    display: flex;
+    justify-content:flex-start;
+}
+div.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 40px;
+    background-color:darkblue;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+}
+.form{
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+    padding: 40px;
+    background-color:aqua;
+}
+.formintro{
+    display: flex;
+}
+.inputemail{
+    width: 150px;
+    height: 25px;
+}
+h1{ /*Titulo*/
+    font-size: 100px;
+    padding: 20px 10px;
+}
+img{ /*Icono*/ 
+    display: flex;
+    height: 150px;
+}
+ul{ /*Lista del inicio*/
+    font-size: 30px;
+    padding: 50px;
+}
+video{ /*Video*/
+    width: 600px;
+    height: 340px;
+}
+div.seccion{
+    display: flex;
+    justify-content: space-around;
+}
